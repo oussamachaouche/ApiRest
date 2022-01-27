@@ -10,6 +10,7 @@ router.get('/', async (req,res)=>{
     }
 });
 router.post('/', async (req,res)=>{
+    //wxc
     const post = new Post({
         text: req.body.text,
         day: req.body.day,
